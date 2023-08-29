@@ -1,2 +1,35 @@
-# dotfiles
-Dotfiles del entorno de escritorio de mis vídeos de YouTube.
+> En este repositorio encontrarás los dotfiles del entorno que uso en mis vídeos de YouTube. También estará detallada la manera de instalarlos.
+* Enlace al vídeo de YouTube: 
+
+### Componentes
+Aquí están los binarios que uso en el entorno con su correspondiente enlace a GitHub:
+* [BSPWM](https://github.com/baskerville/bspwm)
+* [SXHKD](https://github.com/baskerville/bspwm)
+* [Polybar](https://github.com/polybar/polybar)
+* [Kitty](https://github.com/kovidgoyal/kitty)
+* [Rofi](https://github.com/davatorium/rofi)
+
+
+### Instalación
+
+* SO: [Kali Linux](https://kali.org/)
+
+**Dependencias:***
+
+```bash
+sudo apt update
+sudo apt -y full-upgrade 
+sudo apt -y install bspwm sxhkd tmux zsh bat lsd rbenv kitty rofi grc fzf wmname polybar feh
+sudo apt -y remove kitty
+```
+
+**DotFiles:**
+
+```bash
+git clone https://github.com/RiJaba1/dotfiles/
+mv dotfiles/.zshrc ~/.zshrc
+mv -r dotfiles/bspwm ~/.config/
+mv -r dotfiles/sxhkd ~/.config/
+mv -r dotfiles/polybar ~/.config/
+mv -r dotfiles/kitty ~/.config/
+```
