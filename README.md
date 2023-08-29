@@ -1,5 +1,5 @@
 > En este repositorio encontrarás los dotfiles del entorno que uso en mis vídeos de YouTube. También estará detallada la manera de instalarlos.
-* Enlace al vídeo de YouTube: 
+* Enlace al vídeo de YouTube: https://youtu.be/1BAoR-h1Dso
 
 ### Componentes
 Aquí están los binarios que uso en el entorno con su correspondiente enlace a GitHub:
