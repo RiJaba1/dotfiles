@@ -14,13 +14,21 @@ Aquí están los binarios que uso en el entorno con su correspondiente enlace a 
 
 * SO: [Kali Linux](https://kali.org/)
 
-**Dependencias:***
+**Dependencias:**
 
 ```bash
 sudo apt update
 sudo apt -y full-upgrade 
 sudo apt -y install bspwm sxhkd tmux zsh bat lsd rbenv kitty rofi grc fzf wmname polybar feh
 sudo apt -y remove kitty
+```
+
+**Instalar Kitty:**
+
+```bash
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+sudo ln -s ~/.local/kitty.app/bin/kitty /usr/bin/kitty
+sudo ln -s ~/.local/kitty.app/bin/kitten /usr/bin/kitten
 ```
 
 **DotFiles:**
