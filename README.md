@@ -48,4 +48,10 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/bspwm/scripts/bspwm_resize
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod +x ~/.config/polybar/bin/*.sh
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+sudo echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
