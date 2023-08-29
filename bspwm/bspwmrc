@@ -19,5 +19,5 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-/home/rijaba1/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 feh --bg-scale /home/rijaba1/.config/wallpapers/01.jpg &
