@@ -140,12 +140,4 @@ super + shift + f
 	/opt/firefox/firefox
 
 super + shift + b
-	java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/opt/Burp-Suite/loader.jar -noverify -jar /opt/Burp-Suite/Burp_Suite_Pro.jar
-
-#super + shift + g
-#	google-chrome
-
-# Open Burpsuite Professional
-
-#super + ctrl + b
-#	gksudo burp
+	burpsuite
