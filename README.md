@@ -54,4 +54,10 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 sudo echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+sudo mkdir /usr/share/zsh/plugins/
+cd /usr/share/zsh/plugins/
+git clone https://github.com/zsh-users/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
 ```
