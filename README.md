@@ -1,13 +1,19 @@
-> En este repositorio encontrarás los dotfiles del entorno que uso en mis vídeos de YouTube. También estará detallada la manera de instalarlos.
-* Enlace al vídeo de YouTube: https://youtu.be/1BAoR-h1Dso
+# Mis *dotfiles* de Kali Linux
 
-### Componentes
-Aquí están los binarios que uso en el entorno con su correspondiente enlace a GitHub:
-* [BSPWM](https://github.com/baskerville/bspwm)
-* [SXHKD](https://github.com/baskerville/sxhkd)
-* [Polybar](https://github.com/polybar/polybar)
-* [Kitty](https://github.com/kovidgoyal/kitty)
-* [Rofi](https://github.com/davatorium/rofi)
+> **Note**  
+> Este repositorio contiene los *dotfiles* del entorno que uso en mis vídeos de [YouTube](https://www.youtube.com/@RiJaba1).  
+>
+> Adicionalmente, puedes **consultar su instalación** en [este vídeo](https://youtu.be/1BAoR-h1Dso).
+
+Los componenetes del entorno son los siguientes:
+
+|                  Componente                   | Descripción                                   |
+|:---------------------------------------------:| --------------------------------------------- |
+| [bspwn](https://github.com/baskerville/bspwm) | Gestor de ventanas (*tilling window manager*) |
+| [sxhkd](https://github.com/baskerville/sxhkd) | Gestor de atajos de teclado                   |
+| [Polybar](https://github.com/polybar/polybar) | Barra de estado para el escritorio            |
+| [kitty](https://github.com/kovidgoyal/kitty)  | Emulador de terminal                          |
+|  [Rofi](https://github.com/davatorium/rofi)   | Selector de aplicaciones                      |
 
 
 ### Instalación
