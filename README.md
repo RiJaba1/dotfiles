@@ -4,7 +4,7 @@
 ### Componentes
 Aquí están los binarios que uso en el entorno con su correspondiente enlace a GitHub:
 * [BSPWM](https://github.com/baskerville/bspwm)
-* [SXHKD](https://github.com/baskerville/bspwm)
+* [SXHKD](https://github.com/baskerville/sxhkd)
 * [Polybar](https://github.com/polybar/polybar)
 * [Kitty](https://github.com/kovidgoyal/kitty)
 * [Rofi](https://github.com/davatorium/rofi)
