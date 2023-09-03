@@ -136,3 +136,7 @@ wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.
 Siguiendo todos los pasos anteriores, será necesario reiniciar el sistema y seleccionar el entorno `bspwm` en la pantalla de inicio de sesión.
 
 Una vez hecho eso, ya se podrá disfrutar del entorno.
+
+### Agradecimientos
+
+Quiero dar mis agradecimientos a [Sr. Galán](https://github.com/15Galan) por mejorar y corregir este archivo `README.md`.
