@@ -20,4 +20,4 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 $HOME/.config/polybar/launch.sh &
-feh --bg-scale /home/rijaba1/.config/wallpapers/01.jpg &
+feh --bg-scale $HOME/.config/wallpapers/01.jpg &
