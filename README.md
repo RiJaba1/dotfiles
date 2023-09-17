@@ -140,3 +140,4 @@ Una vez hecho eso, ya se podrá disfrutar del entorno.
 ### Agradecimientos
 
 Quiero dar mis agradecimientos a [Sr. Galán](https://github.com/15Galan) por mejorar y corregir este archivo `README.md`.
+Agradecer también a [Cesar Garduño](https://github.com/CesarGBkR) por su correción de errores.
