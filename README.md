@@ -131,7 +131,7 @@ Por otra parte, el plugin *sudo* puede descargarse desde el repositorio de Oh My
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
 ```
 
-#### Plugins
+#### Fuentes
 
 Para terminar vamos a copiar las fuentes al directorio correspondiente para que se pueda cargar correctamente la Polybar y Kitty.
 
