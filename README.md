@@ -131,6 +131,15 @@ Por otra parte, el plugin *sudo* puede descargarse desde el repositorio de Oh My
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
 ```
 
+#### Plugins
+
+Para terminar vamos a copiar las fuentes al directorio correspondiente para que se pueda cargar correctamente la Polybar y Kitty.
+
+```bash
+sudo cp fonts/* /usr/share/fonts/
+```
+
+
 ---
 
 Siguiendo todos los pasos anteriores, será necesario reiniciar el sistema y seleccionar el entorno `bspwm` en la pantalla de inicio de sesión.
