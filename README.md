@@ -69,12 +69,14 @@ Los *dotfiles* hacen referencia a los archivos de configuración de los componen
 Por tanto, el primer paso será clonarlo:
 
 ```bash
-git clone https://github.com/RiJaba1/dotfiles.git dotfiles
+git clone https://github.com/RiJaba1/dotfiles.git ~/dotfiles
+cd ~/dotfiles
 ```
 
 Ya que se instalaron los componentes en la sección anterior, lo único necesario es mover los ficheros de configuración del repositorio a su ubicación correspondiente:
 
 ```bash
+cd ~/dotfiles
 mv dotfiles/.zshrc ~/.zshrc
 mv dotfiles/bspwm ~/.config/
 mv dotfiles/sxhkd ~/.config/
@@ -136,6 +138,7 @@ wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.
 Para terminar vamos a copiar las fuentes al directorio correspondiente para que se pueda cargar correctamente la Polybar y Kitty.
 
 ```bash
+cd ~/dotfiles
 sudo cp fonts/* /usr/share/fonts/
 ```
 
